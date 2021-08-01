@@ -1,0 +1,455 @@
+*{ 
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;          
+}
+
+
+/*Navigation*/
+
+.navbar-default {
+   border:none;    
+}
+
+.navbar {
+   background-color: #222222;
+   text-transform: uppercase;
+   font-family: 'Raleway 700';
+   font-weight: 700;        
+}
+
+.nav li a {
+   color: #fff !important;
+   opacity: 0.7;
+   transition: all 0.5s ease;  
+}
+
+
+.nav li a:hover {
+   opacity: 1;    
+   background-color: #111111 !important;    
+}
+
+.logo {
+  color: #fff !important;    
+  opacity: 0.7;
+  transition: all 0.5s ease;    
+}
+
+.logo:hover {
+   opacity: 1;    
+   background-color: #111111 !important;    
+    
+}
+
+/*banner*/
+
+.banner {
+   background-image: url(../images/bg.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 600px;
+   padding: 30px 0 30px;
+   width: 100%;
+   margin-top: 50px;
+}
+
+.banner_h {
+   font-size: 40px;
+   color: #fff;
+   font-family: 'Raleway 700';
+   font-weight: 700;
+   letter-spacing: 1px;
+    
+}
+
+.banner_p {
+  color: #fff; 
+  font-family: 'Raleway 300i';
+  line-height: 30px;
+  opacity: 0.8;      
+    
+}
+
+.banner_title{
+   margin-top: 80px;    
+    
+}
+
+.banner_img{
+   margin-top: 70px;       
+    
+}
+
+.btn-success{
+   margin-left: 5px;    
+    
+}
+
+/*services area*/
+
+#service {
+  padding: 80px 0px 80px;
+  text-align: center;        
+}
+
+.service_heading {
+    color: #4c4c4c;
+    margin: 20px 0px 20px;
+    font-family: 'Raleway 700';
+    font-weight: 700;
+    letter-spacing: 1px;
+        
+}
+
+.service_paragraph {
+    color: #4c4c4c;
+    font-family: 'Raleway 300i';  
+    
+}
+
+
+.sevice_h {
+    color: #4c4c4c;
+    margin: 20px 0px 20px;
+    font-family: 'Raleway 600';
+    font-size: 24px;    
+    
+}
+
+.service_row {
+    margin-top: 50px;    
+    
+}
+
+.service_row p {
+     color: #737373;
+     font-size: 14px;
+     line-height: 30px;    
+    
+}
+
+.service_row i {
+   background-color: #6699cc;
+   color: #fff;
+   font-size: 30px;
+   width: 100px;
+   height: 100px;
+   line-height: 100px;
+   border-radius: 50px;
+   transition: all 0.5s ease;    
+}
+
+.service_row i:hover {
+    background-color: #333;
+    color: #fff;    
+    
+}
+
+/*pricing area*/
+
+#pricing {
+    padding: 50px 0px 80px;
+    text-align: center;
+    background-color: #3399ff;
+}
+
+
+#pricing h2 {
+     color: #fff;
+     margin: 20px 0px 20px;
+     font-family: 'Raleway 700';
+     font-weight: 700;
+     letter-spacing: 1px;  
+}
+
+.pricng_paragraph {
+     color: #fff;
+     font-family: 'Raleway 300i';   
+     
+}
+
+.pacakges {
+   background-color: #fff;
+   border: 1px solid #cccccc;
+   padding: 30px;
+   border-radius: 10px;
+   margin-top: 50px;
+   transition: all 0.5s ease;    
+    
+}
+
+.pacakges ul{
+    list-style: none;
+    
+}
+
+
+.pacakges ul li {
+    padding: 5px;
+    display: block;    
+    
+}
+
+.pacakges h1,
+.pacakges h4 {
+   color: #4c4c4c;    
+    
+}
+
+.pacakges p,
+.pacakges li {
+   color: #737373;    
+    
+}
+
+.pacakges p{
+   line-height: 30px;    
+    
+}
+
+.pacakges button {
+   margin-top: 15px;
+
+}
+
+
+.pacakges:hover{
+   box-shadow: rgba(0,0,0,0.7) 10px 10px 10px;    
+    
+}
+
+/*team area*/
+
+
+#team {
+  padding: 50px 0px 50px;
+  text-align: center;
+
+}
+
+#team b,
+#team h4,
+#team h2 {
+   margin: 20px 0px 20px;
+   color: #4c4c4c;
+   font-family: 'Raleway 700';
+   font-weight: 700;
+   letter-spacing: 1px;    
+    
+}
+
+#team p {
+  
+  color: #737373;
+  line-height: 30px;    
+    
+}
+
+#team img {
+   margin-top: 80px;    
+    
+}
+
+.team_paragraph {
+    color: #4c4c4c;
+    font-family: 'Raleway 300i';    
+}
+
+#team i{
+   background-color: #6699cc;
+   color: #fff;
+   font-size: 20px;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50px;
+   transition: all 0.5s ease;
+   margin-top: 20px;
+}
+
+
+#team i:hover{  
+   background-color: #333333;
+   transform:scale(1.1)
+
+}
+
+/*end of team area*/
+
+#Client {
+  padding: 50px 0px 80px;
+  text-align: center;
+  background-color: #3399ff;
+  color: #fff;
+}
+
+#Client h2 {
+  color: #5e5e5e;
+  margin: 20px 0px 20px;
+  font-family: 'Raleway 700';
+  font-weight: 700;
+  letter-spacing: 1px;  
+    
+}
+
+#Client p {
+  padding-bottom: 0px;    
+    
+}
+
+#Client img {
+   cursor: pointer;
+   opacity: 0.6;
+   margin: 0px 0px;
+   transition: all 0.5s ease-in-out;
+    
+}
+
+#Client img:hover {
+   opacity: 1;        
+    
+}
+
+/*end of clint area*/
+
+#contact {
+  padding: 50px 0 80px;
+  text-align: center;    
+    
+}
+
+#contact p {
+  padding-bottom: 80px;
+  color: #737373;    
+    
+}
+
+#contact h2 {
+  color: #4c4c4c;
+  margin: 20px 0px 20px;
+  font-family: 'Raleway 700';
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#contact .input-group {
+  margin-bottom: 25px;    
+    
+}
+
+#contact .form-control {
+   border-radius: 0px !important;    
+    
+}
+
+#contact span{
+  border-radius: 0 !important;  
+       
+}
+
+#contact .btn {
+   border-radius: 0px;
+   width: 100%;
+   font-size: 15px;
+   margin-top: 15px;
+   color: #fff;    
+   transition: all 0.5s ease;    
+}
+
+#contact .btn:hover {
+  background-color: #333333;    
+  color: #fff;    
+}
+
+/*footer area*/
+
+#footer {
+   padding: 30px;
+   color: #cccccc;
+   background-color: #222222;    
+    
+}
+
+#footer .social {
+   font-size: 20px;
+   height: 30px;
+   width: 30px;
+   text-align: center;
+   padding: 5px;
+   border: 1px solid #cccccc;
+   margin-bottom: 10px;
+   margin-right: 5px;
+   transition: all 0.5s ease-in-out;
+    
+}
+
+#footer .social:hover{
+   transform: scale(1.1);
+    
+}
+
+
+#footer input {
+   width: 160px;
+   height: 40px;
+   padding: 5px;
+   border: none;
+   background-color: #cccccc;
+   color: #000000;
+   margin-top: 7px;        
+}
+
+#footer .btn {
+   padding: 10px 5px 10px;    
+   margin: -3px 0 0 5px;        
+}
+
+/*end of footer*/
+
+
+/*media query*/
+
+@media only screen and (max-width: 768px) {
+ .banner_h {
+   font-size: 30px;
+   color: #fff;
+   font-family: 'Raleway 700';
+   font-weight: 700;
+   letter-spacing: 1px;
+   padding-left: px;
+      
+}
+
+#Client img{
+ margin-top: 0px !important;        
+        
+    } 
+    
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .sm_1 {
+        margin-top: 15px;
+    }    
+    
+#footer .btn {
+   padding: 10px 5px 10px;    
+   margin: 10px 0 0 5px;        
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
